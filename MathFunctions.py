@@ -6,3 +6,6 @@ pi=3.14                         # well, actually what I did is:- float pi=3.14;
 
 print(round(pi))
 print(math.ceil(3245.23))
+
+# in short, using a IDE like VSCode, one uses math. and then, u get all the listed math functions
+
