@@ -1,0 +1,17 @@
+{
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#FFFFFF",        // Default text color
+        "terminal.background": "#000000",        // Background color
+        "terminal.ansiBlack": "#000000",         // ANSI black color
+        "terminal.ansiRed": "#FF0000",           // ANSI red color
+        "terminal.ansiGreen": "#00FF00",         // ANSI green color
+        "terminal.ansiYellow": "#FFFF00",        // ANSI yellow color
+        "terminal.ansiBlue": "#0000FF",          // ANSI blue color
+        "terminal.ansiMagenta": "#FF00FF",       // ANSI magenta color
+        "terminal.ansiCyan": "#00FFFF",          // ANSI cyan color
+        "terminal.ansiWhite": "#FFFFFF",         // ANSI white color
+        "terminal.selectionBackground": "#4D4D4D", // Selection background color
+        "terminalCursor.background": "#FFFFFF",  // Cursor background color
+        "terminalCursor.foreground": "#FFFFFF"   // Cursor foreground color
+    }
+}
