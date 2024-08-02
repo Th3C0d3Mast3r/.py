@@ -27,3 +27,11 @@ print(capitals.get("MEXICO"))                                   # this is case s
 
 # Since the .update() added in the end, thus, this is also stack format based
 # Thus, Dictionaries also have the feature of .pop() and .clear()
+
+'''
+A QUICK RECAP
+LISTS:- [ ]
+TUPLES:- ( )
+SETS:- { }
+DICITONARIES:- { : }
+'''
