@@ -34,3 +34,17 @@ foodItem.sort()
 print("SORTED LIST IS:- ", foodItem)
 
 # and to clear the whole list, we do-   foodItem.clear()
+
+'''
+WITH THIS TOPIC DONE, WE HEAD TO MULTI-DIMENSIONAL LISTS
+THIS IS THE SAME CONCEPT OF MULTI-DIMENSIONAL ARRAYS
+'''
+
+deserts=["soan papdi", "rasgulla", "malai cake"]
+beverages=["chai", "coffee", "juice"]
+breakfast=["koki", "poha", "upma", "aloo paratha"]
+
+food=[deserts, beverages, breakfast]                    # this is the 2D List (unlike String food[][]=new String[][])
+print(food)
+print("accessing the DESERTS:- ",food[0])
+print("accessing SOAN-PAPDI in DESERTS:- ", food[0][0])
