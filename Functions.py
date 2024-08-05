@@ -78,4 +78,17 @@ print("YOU ENTERED:- ",round(abs(float(input("ENTER A NON-NEGATIVE INTEGRAL NUMB
 
 # *args formatting in Python
 
+# so, the function def sums(num1, num2) works for only two parameters
+# but what if someone enters more than two
+# for such cases, we use the tuples parameter
+# using *args creates a tuple named args-and then, we can iterate through that. 
+# RECALL:- Lists=[ ],  Sets={ },  Tuples=( ) and Dictionaries/HashMaps={ : }
 
+def sums(*args):
+    sum=0
+    for i in args:
+        sum+=i
+    
+    return sum
+
+print(sums(2,3,4,5,6,77))
