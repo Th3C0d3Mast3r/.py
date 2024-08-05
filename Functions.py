@@ -91,4 +91,17 @@ def sums(*args):
     
     return sum
 
-print(sums(2,3,4,5,6,77))
+print(sums(2,3,4,5,6,77))                                       # The Sum of this should be 97
+
+
+# just as we had *args, there is something even called as **kwargs
+# well, *aegs made all in TUPLES
+# while **kwargs is what makes the HASH MAP(or say DICTIONARY)
+
+def hello(**kwargs):
+    print("Hello", end=" ")                                     # as said before too, end="" prevent new line shift
+    for key,value in kwargs.items():                            # the key,value is for the hashmap accessing
+        print(value, end=" ")
+
+
+hello(title="Mr", name="Anderson", Middle="Michael", last="Bois")
