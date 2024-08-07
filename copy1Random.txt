@@ -1,0 +1,3 @@
+This is the new text that I have added in the file
+Let's see if something is changing or what!
+Well, this is the appending in the file
