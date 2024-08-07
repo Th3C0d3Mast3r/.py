@@ -1,0 +1,3 @@
+this is a test based txt file
+this is something I am using in the MoveFiles.py file
+lets see how it all works! 
