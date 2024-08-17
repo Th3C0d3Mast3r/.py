@@ -49,3 +49,26 @@ print("\n\n\n")
 xyz.habits()                                    # habits is a function of XYZ classs
 xyz.eat()                                       # but eat() is a function of ABC
 print("The Animal lives on "+xyz.location)      # and location is a data-member of grandpa of XYZ; i.e., Organism
+
+'''
+THE BELOW SECTION IS FOR MULTIPLE INHERITANCE IN PYTHON
+WE KNOW THAT JAVA DOESN'T SUPPORT MUTLIPLE INHERITANCE
+THAT IS THE REASON, WE EXPLOIT THIS FEATURE USING ABSTRACT CLASS AND ALL
+BUT NOT IN PYTHON THO
+'''
+class Prey():
+    def flee(slef):
+        print("FLY OFF")
+
+
+class Predate():
+    def hunt(self):
+        print("HUNTER BOI")
+
+class Machhali(Prey, Predate):                  # Machhali is inheriting two classes-prey as well as predate
+    pass
+
+fishes=Machhali()
+print("\n")
+fishes.hunt()                                   # the hunt is a function of PREDATE
+fishes.flee()                                   # the flee is a function of PREY
