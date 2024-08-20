@@ -29,3 +29,9 @@ person.catch(duck)                          # this is equal to passing an object
 # NOTES:- Even if I were to pass the chicken object, it would still work because both of them had the same functions
 print("\n")
 person.catch(chick)
+
+'''
+THUS, DUCK-TYPE IS SOMETHING THAT IS PROMINENT FEATURE
+IN THIS, THE CLASS AND ITS OBJECT IS NOT GIVEN ANY SORT OF IMPORTANCE.
+RATHER, THE FUNCTIONS OF THE CLASS ARE WHAT MAKE IT MORE WORTH IT!
+'''
