@@ -1,0 +1,8 @@
+this file is just a .txt file for recap of iterables
+
+so that we can now the difference between LISTS, TUPLES, SETS, and DICTIONARIES
+
+LISTS [ ] ==> Basic Arrays of Java. Known by indexing
+TUPLES ( ) ==> Immutable Arrays.
+SETS { } ==> They are like sets of Java
+DICTIONARIES { } ==> In short, HashMaps of Java in Python having (key:value) relations
