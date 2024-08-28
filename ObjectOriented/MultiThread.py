@@ -45,3 +45,19 @@ t3= threading.Thread(target=drinkTea, args=())
 t3.start()
 
 print(threading.active_count())                     # this would give, [ MAIN_THREAD + newThreads ]
+
+# DAEMON THREADS BELOW:-
+# they run in background and no wait is needed for that to execute  
+
+def timer():
+    print()
+    count=0
+    while True:
+        time.sleep(1)
+        count+=1
+        print("Logged in for ", count," second[s]")
+
+x=threading.Thread(target=timer, daemon=True)           # N0TE: It is because of daemon, code runs well
+x.start()
+
+answer=input("Do You wish to EXIT: ")                   # the moment someone writes anything, the code stops
