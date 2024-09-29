@@ -7,6 +7,8 @@ Python is a versatile and powerful programming language that is widely used in v
 
 To learn more in depth and in actual way, head to the Python Docs for this. The Link to Python Docs is:- https://docs.python.org/3/tutorial/index.html
 
+Also, there is a `.ipynb` in the main file. That is for NumPy. Refer that as it is useful for **Machine Learning**
+
 ## Getting Started
 To get started with the codes in this repository, follow the steps below:
 
